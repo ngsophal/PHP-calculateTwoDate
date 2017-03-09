@@ -1,10 +1,11 @@
 # PHP-calculateTwoDate
 PHP calculate Employee Payroll -working days between (start work and end work) and last month
 
-+ calling
-$val_workday    = get_workday($driver, $month, $year);
+# calling
+$val_workday    = get_workday($driver, $month, $year);//(125,03,2017);
 
-```php funtion
+```
+//php funtion
 <?php
 function get_workday($id,$m,$y){
 	global $_dbo;
